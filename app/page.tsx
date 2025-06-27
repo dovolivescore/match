@@ -23,7 +23,8 @@ export default function Home() {
 
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60);
-    return \`\${mins}'\`;
+    return `${mins}′`; // of mins + "'"
+
   };
 
   const addGoal = (team) => {
